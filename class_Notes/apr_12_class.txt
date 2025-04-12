@@ -1,0 +1,51 @@
+Objetivo final, es crear una app web interactiva de la tematica que elijamos, usando JS. 
+
+Dentro de la tematica estaremos creando diferentes procesos, como para un E-commerce. Se utilizara FETCH y JSON para obtener datos y diversas herramientas de JS con librerias,promises, async y frameworks.
+
+Repaso Conceptual:
+
+QUE ES JS?
+Es Lenguaje de programacion, usado principalmente para aportar DINAMISMO a sitios y webapps
+Es un lenguaje de programacion INTERPRETADO (primer LP que se ejecuta nativamente en un navegador)
+
+- JS Creado en 1997
+
+Java y JS son lenguajes de programacion que comparten base de su sintaxis, el uso de cada uno es distinto.
+    Java funciona a traves de delcaraciones que se establececn a partir de un sistema de clases en tiempo de compilacion
+    JS se basa en un sistema de tiempo de ejecucion donde cada dado distinto puede representar valores booleanos, de cadena o numericos
+
+Se le llama "Peticion" a la comunicacion de front a Back y se llama respuesta de back a front
+"Ejemplo: Restaurante, el back-end es la cocina, el usuario se comunica a traves de meseros para hacer peticiones a la cocina."
+
+QUE ES LA INFORMATICA?:
+- procesos matematicos que hacen funcionar procesos tecnologicos
+
+COMO DECLARAR VARIABLES:
+    Hay 3 acciones principables al manejar variables: (Es opcional usar "" o '')
+        Declarar: Creacion de variable vacio
+        Asignar valor: guardar un dato dentro de la variable
+        Inicializar/invocar/llamar: Mencionarla, traerla con proposito de utilizarla o visualizarla
+
+LET y CONST:
+    Las declaraciones con 'let' y 'const' tienen controles adicionales para las variables. 
+    Una variable 'let' puede recibir multiples asignaciones en el transcurso de la aplicacion, puede cambiar de valor varias veces.
+    Una variable 'const' recibe una unica asignacion al momento de su declaracion, impidiendo que su valor se modifique luego.
+
+OJO: NO SE PUEDE EMPEZAR UN PROYECTO DE JS SIN TENER UN HTML
+
+JS es un lenguaje muy permisivo - te da libertad y flexibilidad de hacer muchas cosas. Es mucho de tener autocontrol con JS
+
+******************************************************************
+Para vincular tu JS con tu HTML
+Antes de la etiqueta de cierre </body> insertamos <script src="./NOMBRE_ARCHIVO">
+******************************************************************
+
+FRAMEWORKS:
+NodeJS - varicacion de JS para poder trabajarse en Back-end
+
+LISTA DE PALABRAS CLAVES JS:
+let/const: declaraciones 
+
+DEFINICIONES: 
+- Memoria RAM: Memoria de Acceso Aleatorio
+- JS: JavaScript
