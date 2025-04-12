@@ -8,6 +8,11 @@ console.log("Si puedo leer esto, mi archivo esta bien vinculado");
 
 // DECLARAR UNA VARIABLE
 let variable = "";
+// ASIGNAR VALOR A VARIABLE
+variable = "Valeria";
+
+// LLAMAR VARIABLE
+console.log(variable);
 
 /* TIPOS DE DATOS = 01110100001111
 
