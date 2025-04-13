@@ -1,0 +1,25 @@
+Para vincular un archivo JavaScript externo a un documento HTML, se utiliza la etiqueta <script> con el atributo src, que contiene la ruta al archivo JavaScript. Esta etiqueta se puede colocar dentro del <head> o antes del cierre del <body>, dependiendo de cuándo se desea que se cargue el script.
+
+<script src="ruta/al/archivo.js"></script>
+
+*******
+async - le decimos al navegador que corra al mismo tiempo que el analisis del navegador a la pagina web
+
+Hace que el script se cargue separado de la pagina HTML, lo que permite que el navegador pueda cargar sin necesidad de esperar que script cargue
+
+<script async src="ruta/al/archivo.js"></script>
+
+*******
+defer - permite que el navegador renderice y analice el sitio primero antes de correr el script
+
+tambien permite carga separada pero retrasa ejecucion del script hasta que todo el documento HTML se cargue primero y se analice. Es util cuando se necesita que el script cargue para interactuar con elementos del DOM o cuyo orden de ejecucion es importante.
+
+<script defer src="ruta/al/archivo.js"></script>
+*******
+
+Todos los navegadores son compatibles con asyn y defer, pero es importante entender la diferencia entre cada uno y su comportamiento de carga y ejecucion para que no afecte la funcionalidad del sitio web
+
+Tradicionalmente los scripts se colocan al final del cuerpo del documento </body> para no bloquear la carga de la pagina, pero con asycn y defer, es mas flexible ahora en estos dias.
+
+Sabes usar async y defer puede mejorar significativamente la experiencia del usuario al reducir los tiempos de carga percibidos y asegurarnos que el contenido critico se muestre lo mas rapido posible.
+

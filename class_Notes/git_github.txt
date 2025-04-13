@@ -1,0 +1,39 @@
+Que es Git:
+sistema de control de versiones distribuido y de código abierto que permite a los desarrolladores gestionar de manera eficiente y segura las versiones de sus proyectos de software
+
+Configuración Inicial de Git en CMD/terminal:
+git config --global user.name "Tu Nombre"
+git config --global user.email "tu.email@example.com"
+
+Creando tu Primer Repositorio:
+mkdir MiProyecto
+cd MiProyecto
+git init
+
+con lo de arriba se crea una carpeta nueva llamada MiProyecto, y se crea un nuevo repo de Git
+
+Utilidad de Git en el Desarrollo**
+Git es esencial por varias razones:
+
+Control de Cambios: Permite ver quién hizo qué cambios y cuándo, lo que es crucial en proyectos colaborativos.
+
+Ramas (Branches): Facilita la experimentación y el desarrollo paralelo sin afectar la base de código principal, mejorando la gestión de nuevas características y pruebas.
+
+Revertir Cambios: Puedes volver fácilmente a una versión anterior si algo sale mal en la versión actual de tu proyecto.
+
+Clonar tu repo de GitHub con Terminal/Gitbash local:
+git clone {{URLOFREPO}}
+
+Para ingresar a tu repo y abrir VSCode:
+cd NOMBRE_FOLDER
+code . //abrir con VSCode
+
+Para guardar en tus cambios en repo Local:
+git add . //tomando todos los archivos para prepararlos a un nuevo commit
+
+Para confirmar el punto de guardado:
+git commit -m "MENSAJE DE ACTUALIZACION"
+
+Para subir los cambios guardados al repo de GitHub
+git push
+

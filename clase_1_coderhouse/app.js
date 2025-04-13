@@ -7,7 +7,7 @@ console.log("Si puedo leer esto, mi archivo esta bien vinculado");
 */
 
 // DECLARAR UNA VARIABLE
-let variable = "";
+let variable;
 // ASIGNAR VALOR A VARIABLE
 variable = "Valeria";
 
@@ -36,17 +36,17 @@ let year = 2025; // int - numero SIN coma
 let price = 20.5; // float - numero CON coma
 
 // ejemplo String -cadena de caracteres
-let message = prompt("Ingrese Mensaje de Bienvenida");
+/* let message = prompt("Ingrese Mensaje de Bienvenida");
 let course = prompt("Ingrese Nombre de Curso");
 let institution = prompt("Ingrese Nombre de Institución");
 
-let name = prompt("Ingrese Nombre");
+let name = prompt("Ingrese Nombre"); */
 
 //OPERADOR +
 // - SI ESTA ENTRE NUMEROS, SUMA
 // SI NO ESTA ENTRE NUMEROS, CONCATENA (une)
 // TRADICIONAL - CONCATENAMOS VARIOS STRINGS CON VARIAS VARIABLES
-console.log(
+/* console.log(
   message +
     " " +
     name +
@@ -57,12 +57,12 @@ console.log(
     "de" +
     " " +
     institution
-);
+); */
 
 // PLATILLAS LITERALES
 // A PARTIR DE UN UNICO STRING, VAMOS INSERTANDO VARIABLES DENTRO
 // BACKTICKS (`) OBLIGATORIOS, SINO NO FUNCIONA
-console.log(`${message} ${name} al curso de ${course} de ${institution}`);
+/* console.log(`${message} ${name} al curso de ${course} de ${institution}`); */
 
 /* OPERADOR +
 10 + 5 = 15 - SUMA
