@@ -64,3 +64,41 @@ do {
   console.log(var2);
   var2++;
 } while (var2 < 12);
+
+// CONTROLANDO CICLOS
+
+//BREAK y CONTINIUE
+
+// BREAK
+// Utilizado para salir de un ciclo de forma inmediata
+
+for (let i = 0; i < 10; i++) {
+  if (i === 5) {
+    break;
+  }
+  console.log(i);
+}
+
+// CONTINUE
+// Omite la iteracion actual del ciclo y continua con la siguiente, siempre y cuando la condicion del ciclo siga siendo verdadera
+for (let i = 0; i < 10; i++) {
+  if (i % 2 !== 0) {
+    continue;
+  }
+  console.log(i);
+}
+
+// Ejemplo con Array
+
+const usuarios = [
+  { nombre: "Edder", edad: 25, aceptoTerminos: true },
+  { nombre: "Danny", edad: 27, aceptoTerminos: false },
+  { nombre: "Ally", edad: 5, aceptoTerminos: true },
+  { nombre: "Alessandro", edad: 3, aceptoTerminos: true },
+];
+
+for (let i = 0; i < usuarios.length; i++) {
+  if (usuarios[i].edad >= 25 && usuarios[i].aceptoTerminos) {
+    console.log(usuarios[i].nombre);
+  }
+}
