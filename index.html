@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Profesional</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img
+          src="./imgs/Edder.png"
+          alt="Tu foto de perfil"
+          class="profile-img"
+        />
+        <h1>Edder Flores Salinas</h1>
+        <p class="tagline">Project Manager & Front-end Developer</p>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/edder-flores-salinas/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/EdderFlores" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="mailto:edder.flores.salinas@gmail.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- <section id="about">
+      <div class="container">
+        <h2 class="section-title">Sobre Mí</h2>
+        <div class="bio">
+          <p>
+            Project Manager senior, Desarrollador Web y experto en
+            automatización con amplia experiencia ayudando a empresas a crecer y
+            optimizar sus operaciones.
+          </p>
+
+          <h3>Servicios que ofrezco:</h3>
+          <ul>
+            <li>Diseño y optimización de procesos con automatización con IA</li>
+            <li>Gestión de proyectos de principio a fin</li>
+            <li>Creación de procedimientos operativos estándar</li>
+            <li>Planificación estratégica operacional</li>
+          </ul>
+
+          <h3>Mis habilidades técnicas:</h3>
+          <div class="skills">
+            <span class="skill">HTML/CSS/JS</span>
+            <span class="skill">React.js</span>
+            <span class="skill">Node.js</span>
+            <span class="skill">Python</span>
+            <span class="skill">MySQL</span>
+            <span class="skill">GoHighLevel</span>
+            <span class="skill">HubSpot</span>
+            <span class="skill">WordPress</span>
+            <span class="skill">Adobe Suite</span>
+            <span class="skill">Google Ads</span>
+            <span class="skill">Facebook Ads</span>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="bootcamp-projects">
+      <div class="container">
+        <h2 class="section-title">
+          Proyectos JS del Curso
+          <strong><u>Comisión 73450 Javascript </u></strong>
+        </h2>
+        <div class="projects">
+          <div class="project-card">
+            <div class="project-info">
+              <h3 class="project-title">Entregable 1</h3>
+              <p class="project-description">
+                Gestor de tareas minimalista por consola con menú interactivo.
+                Permite agregar tareas (addTask), ver listado (viewTasks) y
+                salir del programa. Desarrollado con arrays y bucles do-while.
+              </p>
+              <a
+                href="./generalProjectsFromCoderhouse/Entregrable1_Flores/index.html"
+                class="btn"
+                >Ver Proyecto</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-info">
+              <h3 class="project-title">Entregable 2</h3>
+              <p class="project-description">
+                Gestor de tareas con persistencia en localStorage, filtros
+                (todas/pendientes/completadas) y marcado de estado. Incluye
+                validación de inputs, ordenamiento automático por fecha y
+                confirmación para borrado masivo.
+              </p>
+              <a
+                href="./generalProjectsFromCoderhouse/Entregrable2_Flores/index.html"
+                class="btn"
+                >Ver Proyecto</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="course-activities">
+      <div class="container">
+        <h2 class="section-title">Actividades del Curso</h2>
+        <div class="projects">
+          <div class="project-card">
+            <div class="project-info">
+              <h3 class="project-title">Actividad 1</h3>
+              <p class="project-description">
+                Descripción breve de la primera actividad práctica del curso.
+              </p>
+              <a href="#" class="btn">Ver Actividad</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-info">
+              <h3 class="project-title">Actividad 2</h3>
+              <p class="project-description">
+                Descripción breve de la segunda actividad práctica del curso.
+              </p>
+              <a href="#" class="btn">Ver Actividad</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <footer>
+      <div class="container">
+        <p>
+          &copy; <span id="current-year"></span> Edder Flores. Todos los
+          derechos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      // Actualizar el año automáticamente
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
