@@ -3,17 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Task Manager - Entrega 2</title>
+    <title>Task Manager - Versión Mejorada</title>
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>Task Manager</h1>
+        <h1>Task Manager Pro</h1>
         <p class="description">
-          <b>Descripción</b>: <br />
-          Organiza todos tus pendientes en una lista interactiva. Tus tareas se
-          guardarán automáticamente.
+          <b>Entregable 2</b>: <br />
+          Persistencia de datos, filtros avanzados y diseño responsivo.
         </p>
       </header>
 
@@ -27,24 +26,26 @@
               placeholder="Escribe tu tarea..."
               required
             />
-            <button type="submit">Agregar Tarea</button>
+            <button type="submit">➕ Agregar</button>
           </form>
         </section>
 
         <section class="task-list">
           <h2>Mis Tareas</h2>
           <div class="filter-buttons">
-            <button id="showAll">Mostrar Todas</button>
-            <button id="showPending">Mostrar Pendientes</button>
-            <button id="showCompleted">Mostrar Completadas</button>
-            <button id="deleteAll" class="delete-all-btn">Borrar Todas</button>
+            <button id="showAll" class="active">Todas</button>
+            <button id="showPending">Pendientes</button>
+            <button id="showCompleted">Completadas</button>
+            <button id="deleteAll" class="delete-btn">🗑️ Todas</button>
           </div>
           <ul id="tasksContainer"></ul>
         </section>
       </main>
 
       <footer>
-        <p>&copy; Edder Flores - Coderhouse Entregable 2</p>
+        <p>
+          &copy; <span id="current-year"></span> Edder Flores - Entregable 2
+        </p>
       </footer>
     </div>
 

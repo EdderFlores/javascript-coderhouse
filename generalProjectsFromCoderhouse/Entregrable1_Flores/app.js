@@ -24,7 +24,8 @@ function viewTasks() {
 
 const showMenu = () =>
   prompt(
-    "Task Menu:\n" +
+    "Make sure to open the console log to see the app in action, to reopen the app just refresh the page\n" +
+      "Task Menu:\n" +
       "1. Add Task\n" +
       "2. View Tasks\n" +
       "3. Exit\n" +
